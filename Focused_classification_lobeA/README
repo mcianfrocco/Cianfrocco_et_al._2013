@@ -21,3 +21,11 @@ In this list, a negative sign is placed in front of class average numbers for cl
 4) Extract particles into stacks corresponding to each classum with 'extract_particles_into_classes.spi'  ([file]_out2.spi using as input list)
 
 5) Create final stack of particles with correct mirroring with 'mirror_some_stacks.spi' ([file]_out1.spi using as input list)
+
+6) This final stack is then used to align to a reference of the rigid BC core, a classification master is then drawn around the position of lobe A, and then the particles are classified with the resulting eigenimages into classums with 20 particles/classum.
+
+7) Each classum is measured within BOXER, where three boxes are placed on the classum:  #1 on lobe B, #2 on lobe C, #3 on lobe A
+
+8) The following script is run on all the resulting box files to output the position of lobe A on the normalized BC-axis distance:  'calc_distance_lobeA_NEWJan2012.py'
+
+9) The distances are found in 'distanceA.spi' and histograms were calculated in MATLAB.
