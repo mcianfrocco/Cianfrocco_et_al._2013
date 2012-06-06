@@ -1,3 +1,6 @@
 Scripts to run EMAN2 refinement: 
 
 run.sh   -   Control script for running refinement on Sun Grid Engine cluster
+
+The latest versions of these refinement scripts can be found:
+https://github.com/nogaleslab/EMAN2recon
