@@ -1,1 +1,7 @@
-Scripts to run FREALIGN refinment
+Scripts to run FREALIGN refinement after EMAN2 global projection matching.
+
+'EMAN_to_FREALIGN.py' - Convesion script for particles and parameters from EMAN2 to FREALIGN
+
+'refine_8procs.com' - Control script for refinement and reconstructions
+
+'mparameters' - input refinement parameters
