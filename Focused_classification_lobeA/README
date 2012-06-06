@@ -1,6 +1,6 @@
 Scripts to calculate 2D reference-free class averages and measure lobe A position
 
-1)  'auto_align_queue' is used to classify ALL particles within a given dataset.  This is a control script that submits classification and alignment jobs to a Sun Grid Engine cluster:
+1)  'auto_align_queue' is used to classify ALL particles within a given dataset.  This is a control script that submits these jobs to a SGE cluster:
 
 	-CAN_queue.csh - Script that runs 'CAN', an executable to perform topology representing network classication
 	-pretreat_queue.csh - Prepares references created from 'CAN' for Multi-reference-alignment.  IMPORTANT - this scripts creates mirrors of references.
