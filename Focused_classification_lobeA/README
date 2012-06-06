@@ -18,6 +18,6 @@ In this list, a negative sign is placed in front of class average numbers for cl
 3)  Convert this list of classums into SPIDER format:
 ./renumber.py [list].txt
 
-4) Extract particles into stacks corresponding to each classum with 'extract_particles_into_classes.spi'
+4) Extract particles into stacks corresponding to each classum with 'extract_particles_into_classes.spi'  ([file]_out2.spi using as input list)
 
-5) Create final stack of particles with correct mirroring with 'mirror_some_stacks.spi' 
+5) Create final stack of particles with correct mirroring with 'mirror_some_stacks.spi' ([file]_out1.spi using as input list)
