@@ -1,0 +1,44 @@
+;;;;;;
+
+FR
+?Input stack of aligned particles (previous round mra output)? <stack>
+
+FR
+?Input basename of select files? <select>
+
+FR
+?Input list of selected classes? <sel>
+
+;;;;;;
+
+UD N [loop]
+<sel>
+
+do lb1 [class]=1,[loop]
+
+	UD IC [class] [selClass]
+	<sel>
+
+	UD N [tot]
+	<select>{****[selClass]}
+
+	do lb2 [part] = 1,[tot]
+
+		UD IC [part] [selPart]
+		<select>{****[selClass]}
+
+		CP
+		<stack>@{*****[selPart]}
+		selClass{***[selClass]}@{*****[part]}
+
+	lb2
+
+	UD ICE
+	<select>{****[selClass]}
+
+lb1
+
+UD ICE
+<sel>
+
+en d
