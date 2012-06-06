@@ -1,0 +1,8 @@
+Source code to compile CAN.  To compile type 'make' with these scripts in your directory.
+
+CAN was implemented in the Nogales Lab by Vince Ramey and adapted from:
+
+Topology representing network enables highly accurate classification of protein images taken by cryo electron-microscope without masking.
+Ogura T, Iwasaki K, Sato C
+
+J Struct Biol. 2003 Sep;143(3):185-200.
