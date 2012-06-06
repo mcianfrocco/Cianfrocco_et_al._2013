@@ -1,1 +1,3 @@
-Info on OTR reconstructions
+Scripts for picking tilted particles in XMIPP, calculating tilt angles with CTFTILT, and created class volumes in SPIDER.
+
+Download and open OTR.pdf for a detailed protocol.  NOTE:  The ctftilt steps have been updated, just run 'ctftilt.py' instead.
