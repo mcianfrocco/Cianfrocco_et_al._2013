@@ -1,1 +1,3 @@
-Scripts to run EMAN2 refinement
+Scripts to run EMAN2 refinement: 
+
+run.sh   -   Control script for running refinement on Sun Grid Engine cluster
