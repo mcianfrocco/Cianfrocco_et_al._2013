@@ -12,3 +12,10 @@ Example of command:
 usage:  auto_align <# iter> <starting im> <orig im> <num particles> <starting class number> <ending class number> <filter strength>
 [michael@ql02 12mar04a]$ ./auto_align_queue 10 parts_prep parts_prep 20167 600 100 0.8
 
+2)  Resulting classums are inspected, and a list of class averages is generated (numbered in EMAN format) corresponding to averages of particles in the 'standard' view of TFIID.
+In this list, a negative sign is placed in front of class average numbers for class averages that need to be mirrored.
+
+3)  Convert this list of classums into SPIDER format:
+./renumber.py [list].txt
+
+4) 
